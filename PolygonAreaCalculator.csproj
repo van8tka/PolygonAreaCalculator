@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\Calculator.cs" />
+    <Compile Include="Implementations\ConvexPolygonConverter.cs" />
+    <Compile Include="Interfaces\ICalculator.cs" />
+    <Compile Include="Interfaces\IConvexPolygonConverter.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
